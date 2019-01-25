@@ -1,14 +1,14 @@
 /*
  * YOUR STYLES HERE
  */
-.crop{
+.crop {
     object-fit: cover;
     width: 200px;
     height: 200px;
 
 }
 
-.crop-thumbnail{
+.crop-thumbnail {
     object-fit: cover;
     width: 100px;
     height: 100px;
