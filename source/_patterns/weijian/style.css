@@ -1,0 +1,80 @@
+/*
+ * YOUR STYLES HERE
+ */
+
+ body {
+  color: rgb(16, 101, 150);
+  font-size: 62.5%;
+}
+
+blockquote {
+  margin-bottom: 0em;
+}
+
+.container {
+  width: 80em;
+  margin: 2em auto;
+}
+
+.ludwig {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid rgb(16, 101, 150);
+  font-family: 'Roboto', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+.ludwig::before, .ludwig::after {
+  content: '\201C';
+  font-family: 'Sanchez';
+  color: rgb(16, 101, 150);
+}
+
+.ludwig::after {
+  content: '\201D';
+}
+
+footer {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: rgb(156, 165, 172);
+  float: left;
+}
+
+/* #grad {
+  background-image: linear-gradient(to top right, rgb(216, 196, 212), rgb(105, 165, 202));
+} */
+/* footer::before {
+  content: '\2015';  
+} */
+
+.name {
+  border-bottom: 2px solid rgb(12, 5, 3);
+  border-top: 2px solid rgb(12, 5, 3);
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  margin: 5px;
+  padding: 0 0px 5px; /* this adds 20px to the sides, extending the border  */
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+.small-text::before {
+  content: '\2014\201C';
+}
+
+.small-text::after {
+  content: '\201D';
+}
+
+.center {
+  margin: auto;
+  width: fit-content;
+}
