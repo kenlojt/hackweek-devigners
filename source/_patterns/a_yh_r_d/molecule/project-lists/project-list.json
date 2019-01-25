@@ -1,0 +1,32 @@
+{
+  "eol": {
+    "teamName": "EOL",
+    "sprintNumber": "5",
+    "sprintGoals": "Finish 3 stories",
+    "statuses": [
+      {"line": "Building funeral plan pages"},
+      {"line": "Building sharing function"}, 
+      {"line": "Set up tests"}
+    ]
+  },
+  "pg": {
+    "teamName": "Parents' gateway",
+    "sprintNumber": "5",
+    "sprintGoals": "Finish 3 stories",
+    "statuses": [
+      {"line": "Build something"},
+      {"line": "Fix something"}, 
+      {"line": "Do tests"}
+    ]
+  },
+  "wogaa":  {
+    "teamName": "WOGAA",
+    "sprintNumber": "20",
+    "sprintGoals": "Finish 5 stories",
+    "statuses": [
+      {"line": "Build something"},
+      {"line": "Fix something"}, 
+      {"line": "Do tests"}
+    ]
+  }
+}
