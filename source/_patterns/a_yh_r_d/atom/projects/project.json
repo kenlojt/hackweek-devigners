@@ -1,0 +1,10 @@
+{
+  "teamName": "EOL",
+  "sprintNumber": "5",
+  "sprintGoals": "Finish 3 stories",
+  "statuses": [
+    {"line": "Building funeral plan pages"},
+    {"line": "Building sharing function"}, 
+    {"line": "Set up tests"}
+  ]
+}

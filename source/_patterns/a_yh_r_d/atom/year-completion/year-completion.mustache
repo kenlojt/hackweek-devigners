@@ -1,0 +1,29 @@
+<script>
+        var now = new Date();
+        var start = new Date(now.getFullYear(), 0, 0);
+        var diff = now - start;
+        var oneDay = 1000 * 60 * 60 * 24;
+        var day = Math.floor(diff / oneDay);
+        var percent = Math.floor(day / 3.65)
+        var val = "width: "+percent+ "%";
+        var month = now.toLocaleString('en-us', { month: 'long' });
+        
+    </script>
+<div class='widget-card'>
+
+    <div class="title" style="border-bottom: 3px solid #000000;">Current Year Completion<span class='sprint'><script>document.write(`${now.getDate()} ${month} ${now.getFullYear()}`)</script></span></div>
+    
+    <div class="percent">
+        <script>document.write(`${percent}%`)</script>
+    </div>
+    <div class="description">
+        <script>
+            document.write(`<div class='progress'><div id='progressBar' class='progress-bar progress-bar-striped bg-success' role='progressbar' style='${val}' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'></div></div>`)
+        </script>
+    </div>
+    
+    
+    <span class="members"><script>document.write(` ${day} out of 365`)</script></span>
+</div>
+
+
