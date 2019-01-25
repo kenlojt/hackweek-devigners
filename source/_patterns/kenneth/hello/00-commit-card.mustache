@@ -1,0 +1,31 @@
+<div class="ml-5" style="width: 25rem;">
+  
+    <div class="row d-flex flex-wrap align-items-center" style="height: 200px;">
+      <div class="col-3">
+          <img src="{{teamImage}}" class="w-100 mx-auto rounded-circle" alt="...">
+      </div>
+      <div class="col-9">
+        <div class="card-body">
+          <h3 class="card-title text-dark">{{teamName}}</h3>
+          <p class="card-text text-secondary">Project members: {{#teamMembers}}<span>{{.}} </span>{{/teamMembers}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="w-100 alert {{alertLevel}}" role="alert">
+        Commits this week: {{numberOfCommits}}
+      </div>
+    </div>
+    <hr/>
+    
+    {{#commitMessages}}
+      <div class="row {{bgColor}} pt-3 pb-3">
+        <div class="col text-muted ml-1">
+          {{commitMessage}} ~ <span class = "text-primary"> {{commitAuthor}} </span>
+          <div class="text-muted font-weight-lighter small">{{commitDate}}</div>
+        </div>
+      </div>
+    {{/commitMessages}}
+
+</div>
