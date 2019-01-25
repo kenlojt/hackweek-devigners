@@ -1,0 +1,15 @@
+/*
+ * YOUR STYLES HERE
+ */
+.crop{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+}
+
+.crop-thumbnail{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}

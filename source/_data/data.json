@@ -1,0 +1,10 @@
+{
+  "primary-button-text": "Click here",
+  "primary-button-colour": "btn-success",
+  "primary-button-action" : "console.log('hello')",
+  "input-placeholder" : "Input text here",
+  "card-image" : "http://placeimg.com/400/300/tech",
+  "card-title" : "Sample Card title",
+  "card-content" : "This is some sample card content to be used."
+
+}

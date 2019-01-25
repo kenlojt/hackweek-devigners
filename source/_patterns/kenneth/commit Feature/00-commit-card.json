@@ -1,0 +1,21 @@
+{
+    "teamImage" : "https://lh3.googleusercontent.com/NJRZspFtfL7pmrwg-ZNeRtiFnM1fJDUFULccnnBah7pO7ySqag3ARew0xK50nlNQUz7J=s180",
+    "teamName": "One Service",
+    "teamMembers": ["Stephanie,", "Jie bo,", "Yong Quan,", "Kenneth,", "Gina,", "Wei Jian,", "Jasmine,", "Moneesh,", "Joy"],
+    "alertLevel" : "alert-warning",
+    "numberOfCommits" : 1497,
+    "commitMessages" : [
+        {
+            "bgColor": "",
+            "commitMessage" : "[WJ] fixed bug in lottie library",
+            "commitAuthor" : "Wei Jian",
+            "commitDate" : "12 Jan 2019" 
+        },
+        {
+            "bgColor": "bg-light",
+            "commitMessage" : "[Ken] Resolved singpass aifk issues",
+            "commitAuthor" : "Kenneth",
+            "commitDate" : "10 Jan 2019" 
+        }
+    ] 
+}

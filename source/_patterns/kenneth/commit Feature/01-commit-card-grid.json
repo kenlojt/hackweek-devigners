@@ -1,0 +1,67 @@
+{
+    "commitCards" : [
+        {
+            "teamImage" : "https://lh3.googleusercontent.com/NJRZspFtfL7pmrwg-ZNeRtiFnM1fJDUFULccnnBah7pO7ySqag3ARew0xK50nlNQUz7J=s180",
+            "teamName": "One Service",
+            "teamMembers": ["Stephanie,", "Jie bo,", "Yong Quan,", "Kenneth,", "Gina,", "Wei Jian,", "Jasmine,", "Moneesh,", "Joy"],
+            "alertLevel" : "alert-warning",
+            "numberOfCommits" : 1497,
+            "commitMessages" : [
+                {
+                    "bgColor": "",
+                    "commitMessage" : "[WJ] fixed bug in lottie library",
+                    "commitAuthor" : "Wei Jian",
+                    "commitDate" : "12 Jan 2019" 
+                },
+                {
+                    "bgColor": "bg-light",
+                    "commitMessage" : "[Ken] Resolved singpass aifk issues",
+                    "commitAuthor" : "Kenneth",
+                    "commitDate" : "10 Jan 2019" 
+                }
+            ] 
+        },
+        {
+            "teamImage" : "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/a6/6a/e4/a66ae4a4-fbbf-ef1b-bc67-268f5d77cfc2/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/246x0w.jpg",
+            "teamName": "MOL- Families",
+            "teamMembers": ["Too many to list"],
+            "alertLevel" : "alert-success",
+            "numberOfCommits" : 2000,
+            "commitMessages" : [
+                {
+                    "bgColor": "",
+                    "commitMessage" : "Removed old babel library",
+                    "commitAuthor" : "Ding yi",
+                    "commitDate" : "12 Jan 2019" 
+                },
+                {
+                    "bgColor": "bg-light",
+                    "commitMessage" : "Found some horrendous bugs",
+                    "commitAuthor" : "Sinto",
+                    "commitDate" : "10 Jan 2019" 
+                }
+            ] 
+        },
+        {
+            "teamImage" : "https://s3.amazonaws.com/poll-en-uploads/uploads%2F20161209T1045Z_4e52e8c56ccaebf70fb08c7ff27ceeb9%2Fmyresponder_applogo.png",
+            "teamName": "My Responder",
+            "teamMembers": ["Too many to list"],
+            "alertLevel" : "alert-success",
+            "numberOfCommits" : 2000,
+            "commitMessages" : [
+                {
+                    "bgColor": "",
+                    "commitMessage" : "Removed old babel library",
+                    "commitAuthor" : "Ding yi",
+                    "commitDate" : "12 Jan 2019" 
+                },
+                {
+                    "bgColor": "bg-light",
+                    "commitMessage" : "Found some horrendous bugs",
+                    "commitAuthor" : "Sinto",
+                    "commitDate" : "10 Jan 2019" 
+                }
+            ] 
+        }
+    ]
+}
