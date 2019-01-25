@@ -1,0 +1,62 @@
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    background-color: rgb(4, 14, 97);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.transparent-bg {
+    background-color: rgba(16, 60, 109, 0.562);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.transparent-bg2 {
+    background-color: rgba(16, 60, 109, 0.562);
+    color: white;
+    font-size: 17px;
+}
+
+.centre {
+    text-align: center
+}
+
+.marquee-top {
+    font-size: 30px
+}
+
+.marquee-bottom {
+    height: 175x
+}
+
+
+.cakepic {
+    width: 52px;
+    height: 45px;
+}
+
+.bottom {
+    margin-top: 1px;
+}
+
+.featured-img {
+    width: 120px;
+    height: 120px;
+}
+
+.newkid-img {
+    width: 90px;
+    height: 90px;
+}
+
+.newkid {
+    font-size: 13px;
+}
+
+.container-fluid {
+    margin: 0;
+}
