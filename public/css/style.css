@@ -1,15 +1,460 @@
 /*
  * YOUR STYLES HERE
  */
-.crop{
+.crop {
     object-fit: cover;
     width: 200px;
     height: 200px;
 
 }
 
-.crop-thumbnail{
+.crop-thumbnail {
     object-fit: cover;
     width: 100px;
     height: 100px;
+}
+
+/* yh_dan_am*/
+
+/*
+ * AMANDA/YIHUI/RYAN/DANIEL STYLES HERE
+*/
+
+.btn {
+  padding: 8px 12px 8px 12px;
+
+}
+
+.jio {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 24px 20px 24px 20px;
+  overflow: hidden;
+  /* To keep auto height of parent when child is floated*/
+  margin-bottom: 16px;
+}
+
+.floorplan__area {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.floorplan__area:hover {
+  transform: scale(1.1);
+  transition: 200ms ease;
+  z-index: 999;
+}
+
+.you-are-here {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+  padding: 8px;
+}
+
+.jio__btn {
+  margin: 16px;
+  display: inline-block;
+}
+
+.jio-card-footer {
+  overflow: hidden;
+  float: right;
+}
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+body {
+  font-size: 16px;
+  font-style: rgb(32, 32, 32);
+
+}
+
+/*Team Name Bold*/
+
+h3 {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: rgb(32, 32, 32);
+}
+
+h3.semibold {
+  font-weight: 600;
+  font-style: rgb(32, 32, 32);
+
+}
+
+/*Sprint Number*/
+
+h6 {
+  font-size: 14px;
+  font-style: rgb(32, 32, 32);
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  margin: 4px 0 8px 0;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.avatar.mini-light {
+  background-color: rgb(235, 235, 235);
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
+  display: inline-block;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar.mini-dark {
+  background-color: rgb(202, 202, 202);
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
+  display: inline-block;
+  background-image: url("https://picsum.photos/6858/4574?image=1080");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar__mini__group {
+  display: inline-block;
+  vertical-align: top;
+  margin: 16px 24px 16px 0;
+}
+
+.project__body {
+  border-bottom: 2px solid rgb(235, 235, 235);
+  margin: 0 8px 0 8px;
+}
+
+.project__name {
+  padding-left: 0;
+}
+
+.entrance-door {
+  width: 5px;
+  height: 40px;
+  background: lightgray;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 8px;
+}
+
+.stand-up-door {
+  width: 40px;
+  height: 5px;
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  padding: 8px;
+}
+
+.pantry-door {
+  width: 40px;
+  height: 5px;
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  left: 130px;
+  padding: 8px;
+}
+
+.mol {
+  border-radius: 120px 0 0 0;
+  background: #f08700;
+}
+
+.uiux {
+  background: #efca08;
+}
+
+.wogaa {
+  border-radius: 0 120px 0 0;
+  background: #00a6a6;
+}
+
+.stand-up-area {
+  background: repeating-linear-gradient(-55deg,
+      white,
+      white 10px,
+      whitesmoke 10px,
+      whitesmoke 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-area {
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-radius: 120px 0 0 0;
+  background: repeating-linear-gradient(-55deg,
+      whitesmoke,
+      whitesmoke 10px,
+      white 10px,
+      white 20px);
+}
+
+.entrance {
+  border-left: 2px solid lightgray;
+  border-radius: 0 0 120px 0;
+  background: repeating-linear-gradient(-55deg,
+      white,
+      white 10px,
+      whitesmoke 10px,
+      whitesmoke 20px);
+}
+
+.eol {
+  background: #bbdef0;
+  border-radius: 0 0 120px 0;
+}
+
+.jio {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 16px;
+  overflow: hidden;
+  /* To keep auto height of parent when child is floated */
+  margin-bottom: 16px;
+}
+
+.jio:last-child {
+  margin-bottom: 0;
+}
+
+.jio__title {
+  margin-bottom: 8px;
+}
+
+.jio__btn {
+  margin-top: 16px;
+  display: block;
+  float: right;
+}
+
+/* Project Stack */
+.widget-card-list {}
+
+.widget-card {
+  margin: 10px 0px;
+  box-shadow: 1px 1px 2px 1px rgba(204, 204, 204, 1);
+  padding: 10px 15px 20px;
+}
+
+.widget-card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.widget-card .description {
+  margin: 10px 0;
+}
+
+.widget-card .description a {
+  margin: 5px;
+}
+
+.widget-card .sprint {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.widget-card .icons {
+  font-size: 2.2rem;
+}
+
+.widget-card .members {}
+
+.widget-card .memberlist {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  display: none;
+}
+
+.members:hover+.memberlist {
+  display: block;
+}
+
+.widget-card .percent {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* wei jian */
+
+/*
+ * YOUR STYLES HERE
+ */
+
+body {
+  color: rgb(16, 101, 150);
+  font-size: 62.5%;
+}
+
+blockquote {
+  margin-bottom: 0em;
+}
+
+.container {
+  width: 80em;
+  margin: 2em auto;
+}
+
+.ludwig {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid rgb(16, 101, 150);
+  font-family: 'Roboto', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+.ludwig::before, .ludwig::after {
+  content: '\201C';
+  font-family: 'Sanchez';
+  color: rgb(16, 101, 150);
+}
+
+.ludwig::after {
+  content: '\201D';
+}
+
+footer {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: rgb(156, 165, 172);
+  float: left;
+}
+
+/* #grad {
+  background-image: linear-gradient(to top right, rgb(216, 196, 212), rgb(105, 165, 202));
+} */
+/* footer::before {
+  content: '\2015';
+} */
+
+.name {
+  border-bottom: 2px solid rgb(12, 5, 3);
+  border-top: 2px solid rgb(12, 5, 3);
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+  margin: 5px;
+  padding: 0 0px 5px; /* this adds 20px to the sides, extending the border  */
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+.small-text::before {
+  content: '\2014\201C';
+}
+
+.small-text::after {
+  content: '\201D';
+}
+
+.center {
+  margin: auto;
+  width: fit-content;
+}
+
+/* Sarah */
+
+.sarah-h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    background-color: rgb(4, 14, 97);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.transparent-bg {
+    background-color: rgba(16, 60, 109, 0.562);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.transparent-bg2 {
+    background-color: rgba(16, 60, 109, 0.562);
+    color: white;
+    font-size: 17px;
+}
+
+.centre {
+    text-align: center
+}
+
+.marquee-top {
+    font-size: 30px
+}
+
+.marquee-bottom {
+    height: 175x
+}
+
+
+.cakepic {
+    width: 52px;
+    height: 45px;
+}
+
+.bottom {
+    margin-top: 1px;
+}
+
+.featured-img {
+    width: 120px;
+    height: 120px;
+}
+
+.newkid-img {
+    width: 90px;
+    height: 90px;
+}
+
+.newkid {
+    font-size: 13px;
+}
+
+.container-fluid {
+    margin: 0;
 }

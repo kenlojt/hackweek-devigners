@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1548405262237,
+  "timestamp": 1548563024069,
   "graph": {
     "options": {
       "directed": true,
@@ -8,6 +8,108 @@
       "compound": false
     },
     "nodes": [
+      {
+        "v": "a_yh_r_d/atom/birthdays/birthdays.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/floorplan/floorplan.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/jios/leisure-jio.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/a_yh_r_d-molecule/jio-lists-leisure-jio-list/a_yh_r_d-molecule/jio-lists-leisure-jio-list.rendered.html",
+          "lineagePattern": "a_yh_r_d-leisure-jio-list"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/jios/work-jio.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/members/new-member.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/project-stacks/project-stack.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/projects/project.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/a_yh_r_d-molecule/project-lists-project-list/a_yh_r_d-molecule/project-lists-project-list.rendered.html",
+          "lineagePattern": "a_yh_r_d-project-list"
+        }
+      },
+      {
+        "v": "a_yh_r_d/atom/year-completion/year-completion.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/molecule/jio-lists/leisure-jio-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/a_yh_r_d-templates-dashboard/a_yh_r_d-templates-dashboard.rendered.html",
+          "lineagePattern": "a_yh_r_d-dashboard"
+        }
+      },
+      {
+        "v": "a_yh_r_d/molecule/project-lists/project-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/molecule/project-stack/project-stack-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "a_yh_r_d/templates/dashboard.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "anand/00-atom/Home.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "anand/01-atom1/Blogs.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "anand/01-atom1/headings.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "anand/02-molecules/Slidebar.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
       {
         "v": "kenneth/commit Feature/00-commit-card.mustache",
         "value": {
@@ -33,18 +135,52 @@
         }
       },
       {
-        "v": "/Users/Ken/Desktop/pattern-lab-kenneth/source/_meta/_00-head.mustache",
+        "v": "sarah/sarah's website/dashboard.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "weijian/featured member/featured-member.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "weijian/quote-of-the-day/quote.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "/Users/Ken/Documents/GitHub/hackweek-devigners/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "/Users/Ken/Desktop/pattern-lab-kenneth/source/_meta/_01-foot.mustache",
+        "v": "/Users/Ken/Documents/GitHub/hackweek-devigners/source/_meta/_01-foot.mustache",
         "value": {
           "compileState": null
         }
       }
     ],
-    "edges": []
+    "edges": [
+      {
+        "v": "a_yh_r_d/molecule/jio-lists/leisure-jio-list.mustache",
+        "w": "a_yh_r_d/atom/jios/leisure-jio.mustache",
+        "value": {}
+      },
+      {
+        "v": "a_yh_r_d/molecule/project-lists/project-list.mustache",
+        "w": "a_yh_r_d/atom/projects/project.mustache",
+        "value": {}
+      },
+      {
+        "v": "a_yh_r_d/templates/dashboard.mustache",
+        "w": "a_yh_r_d/molecule/jio-lists/leisure-jio-list.mustache",
+        "value": {}
+      }
+    ]
   }
 }

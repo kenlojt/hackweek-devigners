@@ -2,7 +2,7 @@
  * YOUR STYLES HERE
  */
 
- body {
+body {
   color: rgb(16, 101, 150);
   font-size: 62.5%;
 }
@@ -47,7 +47,7 @@ footer {
   background-image: linear-gradient(to top right, rgb(216, 196, 212), rgb(105, 165, 202));
 } */
 /* footer::before {
-  content: '\2015';  
+  content: '\2015';
 } */
 
 .name {
